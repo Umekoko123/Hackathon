@@ -78,7 +78,7 @@ class AppState {
         get() = tasks.count { it.isDone }
 }
 
-//aloysious suck dick
+//aloysious suck dickx
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -115,7 +115,7 @@ sealed class Screen(val route: String, val title: String) {
 }
 
 
-
+//Main Timer UI
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun FocusTimerUI(navcontroller: NavHostController, appState: AppState) {
@@ -401,7 +401,7 @@ fun FocusTimerUI(navcontroller: NavHostController, appState: AppState) {
     }
 }
 
-
+//To Do Screen UI
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun TodoScreen(appState: AppState) {
@@ -467,6 +467,8 @@ fun TodoScreen(appState: AppState) {
     }
 }
 
+
+//TaskRowUI
 @Composable
 private fun TaskRow(
     task: Task,
