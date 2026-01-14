@@ -78,7 +78,7 @@ class AppState {
         get() = tasks.count { it.isDone }
 }
 
-
+//aloysious suck dick
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
