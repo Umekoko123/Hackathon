@@ -91,6 +91,8 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
+
+//test
 fun AppNavHost(navController: NavHostController, appState: AppState) {
     NavHost(navController = navController, startDestination = Screen.Timer.route) {
 
@@ -212,6 +214,8 @@ fun FocusTimerUI(navcontroller: NavHostController, appState: AppState) {
                             scope.launch { drawerState.open() }
                         }) {
                             Icon(
+
+                                //testing123
                                 imageVector = Icons.Default.Menu,
                                 contentDescription = "Menu"
                             )
